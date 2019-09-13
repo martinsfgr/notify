@@ -1,0 +1,96 @@
+body{
+    display: grid;
+    font-family: 'Roboto', sans-serif;
+    grid-template-areas: 'nav nav nav nav'
+                         'banner banner banner banner'
+                         'intro intro intro intro'
+                         'rss rss rss rss'
+                         'feedback feedback feedback feedback'
+                         'footer footer footer footer';
+    grid-template-columns: 24.7vw 24.7vw 24.7vw 24.7vw;
+    grid-template-rows: 1vh 80vh 50vh 55vh 60vh 20vh;
+    margin: 0;
+}
+
+body section:nth-child(3){
+    background: #ffffff;
+    display: grid;
+    grid-area: intro;
+}
+
+body section:nth-child(4){
+    background: #e3e3e3;
+    grid-area: rss;
+}
+
+body section:nth-child(5){
+    background: #ffffff;
+    grid-area: feedback;
+}
+
+footer{
+    background: #e3e3e3;
+    grid-area: footer;
+}
+
+h1{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 42pt;
+    font-weight: normal;
+}
+
+header{
+    background-image: url('imgs/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-area: banner;
+    grid-template-areas: 'leftside rightside';
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+nav{
+    background: #2ccd70;
+    grid-area: nav;
+}
+
+span{
+    color: #2ccd70;
+}
+
+.hand{
+    padding-left: 95px;
+    width: 375px;
+}
+
+.left-side{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    grid-area: leftside;
+    justify-content: center;
+}
+
+.left-side div p{
+    color: white;
+    font-size: 16pt;
+    font-weight: 600; 
+    line-height: 30px;
+}
+
+.platforms-icons{
+    display: flex;
+}
+
+.right-side{
+    align-items: flex-end;
+    display: flex;
+    grid-area: rightside;
+}
+
+#iOS, #Android, #Windows{
+
+}
