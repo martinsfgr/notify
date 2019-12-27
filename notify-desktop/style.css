@@ -40,6 +40,11 @@ h1{
     font-weight: normal;
 }
 
+.hand{
+    padding-left: 95px;
+    width: 375px;
+}
+
 header{
     background-image: url('imgs/banner.png');
     background-position: center;
@@ -52,18 +57,25 @@ header{
     grid-template-rows: 100%;
 }
 
-nav{
-    background: #2ccd70;
-    grid-area: nav;
+.icons{
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    width: 45px;
 }
 
-span{
-    color: #2ccd70;
+.icons img{
+    filter: grayscale(75%);
+    height: 20px;
+    width: 20px;
 }
 
-.hand{
-    padding-left: 95px;
-    width: 375px;
+.icons:hover{
+    background-color: #2ccd70;
 }
 
 .left-side{
@@ -81,8 +93,17 @@ span{
     line-height: 30px;
 }
 
+nav{
+    background: #2ccd70;
+    grid-area: nav;
+}
+
 .platforms-icons{
     display: flex;
+}
+
+.platforms-icons div:nth-child(2){
+    margin: 0 7px 0 7px;
 }
 
 .right-side{
@@ -91,6 +112,6 @@ span{
     grid-area: rightside;
 }
 
-#iOS, #Android, #Windows{
-
+span{
+    color: #2ccd70;
 }
