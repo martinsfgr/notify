@@ -19,17 +19,17 @@ body section:nth-child(3){
     grid-template-areas: 'firstside secondside thirdside';
 }
 
-body section:nth-child(3) div:nth-child(1){
+body section:nth-child(3) > div:nth-child(1){
     background-color: rosybrown;
     grid-area: firstside;
 }
 
-body section:nth-child(3) div:nth-child(2){
+body section:nth-child(3) > div:nth-child(2){
     background-color: yellowgreen;
     grid-area: secondside;
 }
 
-body section:nth-child(3) div:nth-child(3){
+body section:nth-child(3) > div:nth-child(3){
     background-color: red;
     grid-area: thirdside;
 }
