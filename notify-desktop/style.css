@@ -77,11 +77,6 @@ h1{
     font-weight: normal;
 }
 
-.hand{
-    padding-left: 95px;
-    width: 375px;
-}
-
 header{
     background-image: url('imgs/banner.png');
     background-position: center;
@@ -92,6 +87,32 @@ header{
     grid-template-areas: 'leftside rightside';
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
+}
+
+header > div:nth-child(1){
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    grid-area: leftside;
+    justify-content: center;
+}
+
+header > div:nth-child(1) > div > p{
+    color: white;
+    font-size: 16pt;
+    font-weight: 600; 
+    line-height: 30px;
+}
+
+header > div:nth-child(2){
+    align-items: flex-end;
+    display: flex;
+    grid-area: rightside;
+}
+
+header > div:nth-child(2) > img {
+    padding-left: 95px;
+    width: 375px;
 }
 
 .icons{
@@ -115,21 +136,6 @@ header{
     background-color: #2ccd70;
 }
 
-.left-side{
-    align-items: flex-end;
-    display: flex;
-    flex-direction: column;
-    grid-area: leftside;
-    justify-content: center;
-}
-
-.left-side div p{
-    color: white;
-    font-size: 16pt;
-    font-weight: 600; 
-    line-height: 30px;
-}
-
 nav{
     background: #2ccd70;
     grid-area: nav;
@@ -141,12 +147,6 @@ nav{
 
 .platforms-icons div:nth-child(2){
     margin: 0 7px 0 7px;
-}
-
-.right-side{
-    align-items: flex-end;
-    display: flex;
-    grid-area: rightside;
 }
 
 span{
