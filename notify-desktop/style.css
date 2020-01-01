@@ -36,22 +36,35 @@ body section:nth-child(3) > div > div{
     width: 80px;
 }
 
+body section:nth-child(3) > div > div > img{
+    height: 40px;
+    width: 40px;
+}
+
+body section:nth-child(3) > div > h3{
+    font-weight: lighter;
+    margin: 15px 0px 8px 0;
+}
+
 body section:nth-child(3) > div > p{
+    color: #a0a0a0;
+    font-size: 10.5pt;
     text-align: center;
+    width: 70%;
 }
 
 body section:nth-child(3) > div:nth-child(1){
-    background-color: rosybrown;
+    background-color: #ffffff;
     grid-area: firstside;
 }
 
 body section:nth-child(3) > div:nth-child(2){
-    background-color: yellowgreen;
+    background-color: #ffffff;
     grid-area: secondside;
 }
 
 body section:nth-child(3) > div:nth-child(3){
-    background-color: red;
+    background-color: #ffffff;
     grid-area: thirdside;
 }
 
