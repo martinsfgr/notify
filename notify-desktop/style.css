@@ -84,20 +84,47 @@ body section:nth-child(4) > div:nth-child(1){
     padding: 0 0 0 120px;
 }
 
+body section:nth-child(4) > div:nth-child(1) > div{
+    display: flex;
+}
+
+body section:nth-child(4) > div:nth-child(1) > h3{
+    font-weight: lighter;
+    margin: 18px 0 10px 0;
+}
+
 body section:nth-child(4) > div:nth-child(1) > p{
+    color: #949494;
+    font-size: 11pt;
     width: 80%;
 }
 
 body section:nth-child(4) > div:nth-child(2){
-    align-items: center;
+    align-items: center;    
     display: flex;
     grid-area: video;
     justify-content: center;
 }
 
+body section:nth-child(4) > div:nth-child(2) > img{
+    border-radius: 10px;
+}
+
 body section:nth-child(5){
     background: #ffffff;
     grid-area: feedback;
+}
+
+button[type=submit]{
+    background-color: #2ccd70;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    color: white;
+    cursor: pointer;
+    font-size: 14pt;
+    font-weight: bolder;
+    height: 50px;
+    width: 120px;
 }
 
 footer{
@@ -145,7 +172,7 @@ header > div:nth-child(2){
     grid-area: rightside;
 }
 
-header > div:nth-child(2) > img {
+header > div:nth-child(2) > img{
     padding-left: 95px;
     width: 375px;
 }
@@ -169,6 +196,13 @@ header > div:nth-child(2) > img {
 
 .icons:hover{
     background-color: #2ccd70;
+}
+
+input[type=text]{
+    border: none;
+    border-radius: 15px 0 0 15px;
+    height: 50px;
+    padding: 0 0 0 20px;
 }
 
 nav{
