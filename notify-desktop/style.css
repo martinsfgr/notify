@@ -244,18 +244,15 @@ header > div:nth-child(1) > div > p{
     line-height: 30px;
 }
 
-header > div:nth-child(2){
-    align-items: flex-end;
+header > div:nth-child(1) > div:nth-child(1) > div:nth-child(3){
     display: flex;
-    grid-area: rightside;
 }
 
-header > div:nth-child(2) > img{
-    padding-left: 95px;
-    width: 375px;
+header > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2){
+    margin: 0 7px 0 7px;
 }
 
-.icons{
+header > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div{
     align-items: center;
     background-color: rgba(0, 0, 0, 0.75);
     border-radius: 100px;
@@ -266,14 +263,26 @@ header > div:nth-child(2) > img{
     width: 45px;
 }
 
-.icons img{
+header > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:hover{
+    background-color: #2ccd70;
+}
+
+header > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div > img{
     filter: grayscale(75%);
     height: 20px;
     width: 20px;
 }
 
-.icons:hover{
-    background-color: #2ccd70;
+
+header > div:nth-child(2){
+    align-items: flex-end;
+    display: flex;
+    grid-area: rightside;
+}
+
+header > div:nth-child(2) > img{
+    padding-left: 95px;
+    width: 375px;
 }
 
 input[type=text]{
@@ -286,14 +295,6 @@ input[type=text]{
 nav{
     background: #2ccd70;
     grid-area: nav;
-}
-
-.platforms-icons{
-    display: flex;
-}
-
-.platforms-icons div:nth-child(2){
-    margin: 0 7px 0 7px;
 }
 
 span{
