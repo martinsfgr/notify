@@ -191,8 +191,23 @@ button[type=submit]{
 }
 
 footer{
+    align-items: center;
     background: #e3e3e3;
+    display: flex;
     grid-area: footer;
+    justify-content: center;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+footer div p{
+    color: #9a9a9a;
+    cursor: pointer;
+    font-size: 10.5pt;
 }
 
 h1{
