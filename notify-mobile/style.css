@@ -10,7 +10,7 @@ body{
                          'feedback'
                          'footer';
     grid-template-columns: 99.7vw;
-    grid-template-rows: 1vh 99vh 100vh 100vh 100vh 100vh 100vh 20vh;
+    grid-template-rows: 3vh 99vh 100vh 100vh 100vh 100vh 100vh 20vh;
 }
 
 body section:nth-child(3){
@@ -49,6 +49,6 @@ header{
 }
 
 nav{
-    background-color: rosybrown;
+    background-color: #2ccd70;
     grid-area: nav;
 }

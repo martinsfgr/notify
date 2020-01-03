@@ -293,7 +293,7 @@ input[type=text]{
 }
 
 nav{
-    background: #2ccd70;
+    background-color: #2ccd70;
     grid-area: nav;
 }
 
