@@ -10,7 +10,7 @@ body{
                          'feedback'
                          'footer';
     grid-template-columns: 99.7vw;
-    grid-template-rows: 3vh 99vh 100vh 100vh 100vh 100vh 100vh 20vh;
+    grid-template-rows: 3vh 90vh 100vh 100vh 100vh 100vh 100vh 20vh;
 }
 
 body section:nth-child(3){
@@ -43,12 +43,67 @@ footer{
     grid-area: footer;
 }
 
+h1{
+    color: white;
+    flex-direction: column;
+    font-family: 'Pacifico', cursive;
+    font-size: 38pt;
+    font-weight: normal;
+    justify-content: center;
+}
+
 header{
-    background-color: royalblue;
+    background-image: url('imgs/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     grid-area: banner;
+}
+
+header > div:nth-child(3){
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    height: 35px;
+}
+
+header > div:nth-child(3):hover{
+    background-color: #2ccd70;
+}
+
+header div h3{
+    color: white;
+    font-size: 11pt;
+    font-weight: lighter;
+    text-align: center;
+}
+
+header p{
+    color: white;
+    font-size: 12pt;
+    font-weight: lighter; 
+    line-height: 20px;
+}
+
+header > div:nth-child(1), header p{
+    padding: 0 0 0 10%;
+}
+
+header > div:nth-child(3){
+    margin: 0 0 0 10%;
 }
 
 nav{
     background-color: #2ccd70;
     grid-area: nav;
+}
+
+span{
+    color: #2ccd70;
 }
