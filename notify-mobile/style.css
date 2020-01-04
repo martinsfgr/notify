@@ -7,10 +7,10 @@ body{
                          'intro-design'
                          'intro-audience'
                          'rss'
-                         'feedback'
+                         'medias'
                          'footer';
     grid-template-columns: 99.7vw;
-    grid-template-rows: 3vh 90vh 50vh 50vh 50vh 60vh 100vh 20vh;
+    grid-template-rows: 3vh 90vh 50vh 50vh 50vh 60vh 40vh 20vh;
 }
 
 body section:nth-child(3){
@@ -104,8 +104,45 @@ body section:nth-child(6) > p{
 }
 
 body section:nth-child(7){
-    background-color: slategray;
-    grid-area: feedback;
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    grid-area: medias;
+    justify-content: center;
+}
+
+
+body section:nth-child(7) > div:nth-child(3){
+    display: flex;
+}
+
+body section:nth-child(7) > h3{
+    margin: 0 0 5px 0;
+}
+
+body section:nth-child(7) > p{
+    color: #949494;
+    font-size: 9pt;
+    font-weight: lighter;
+    margin: 5px 0 35px 0;
+}
+
+body section:nth-child(7) > div:nth-child(3) > div{
+    background-color: #d4d4d4;
+    border-radius: 50%;
+    margin: 0 2px 0 2px;
+    height: 30px;
+    width: 30px;
+}
+
+body section:nth-child(7) > div:nth-child(3) > div:hover{
+    background-color: #2ccd70;
+}
+
+body section:nth-child(7) > div:nth-child(3) > div > img{
+    height: 30px;
+    width: 30px;
 }
 
 button[type=submit]{
