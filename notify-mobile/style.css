@@ -10,7 +10,7 @@ body{
                          'feedback'
                          'footer';
     grid-template-columns: 99.7vw;
-    grid-template-rows: 3vh 90vh 50vh 50vh 50vh 100vh 100vh 20vh;
+    grid-template-rows: 3vh 90vh 50vh 50vh 50vh 60vh 100vh 20vh;
 }
 
 body section:nth-child(3){
@@ -86,13 +86,38 @@ body section:nth-child(5) > p{
 }
 
 body section:nth-child(6){
-    background-color: teal;
+    background-color: #e3e3e3;
+    display: flex;
+    flex-direction: column;
     grid-area: rss;
+    justify-content: center;
+    padding: 0 0 0 20px;
+}
+
+body section:nth-child(6) > div{
+    display: flex;
+    margin: 10px 0 0 0;
+}
+
+body section:nth-child(6) > p{
+    font-size: 9.5pt;
 }
 
 body section:nth-child(7){
     background-color: slategray;
     grid-area: feedback;
+}
+
+button[type=submit]{
+    background-color: #2ccd70;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    color: white;
+    cursor: pointer;
+    font-size: 14pt;
+    font-weight: bolder;
+    height: 30px;
+    width: 120px;
 }
 
 footer{
@@ -154,6 +179,14 @@ header > div:nth-child(1), header p{
 
 header > div:nth-child(3){
     margin: 0 0 0 10%;
+}
+
+input[type=text]{
+    border: none;
+    border-radius: 15px 0 0 15px;
+    height: 30px;
+    padding: 0 0 0 20px;
+    width: 45%;
 }
 
 nav{
