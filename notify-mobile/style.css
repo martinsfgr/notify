@@ -10,7 +10,7 @@ body{
                          'medias'
                          'footer';
     grid-template-columns: 99.7vw;
-    grid-template-rows: 3vh 90vh 50vh 50vh 50vh 60vh 40vh 20vh;
+    grid-template-rows: 3vh 90vh 50vh 50vh 50vh 60vh 40vh 10vh;
 }
 
 body section:nth-child(3){
@@ -131,6 +131,7 @@ body section:nth-child(7) > p{
 body section:nth-child(7) > div:nth-child(3) > div{
     background-color: #d4d4d4;
     border-radius: 50%;
+    cursor: pointer;
     margin: 0 2px 0 2px;
     height: 30px;
     width: 30px;
@@ -158,8 +159,23 @@ button[type=submit]{
 }
 
 footer{
-    background-color: yellowgreen;
+    align-items: center;
+    background-color: #e3e3e3;
+    display: flex;
     grid-area: footer;
+    justify-content: center;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+footer div p{
+    color: #9a9a9a;
+    cursor: pointer;
+    font-size: 8pt;
 }
 
 h1{
