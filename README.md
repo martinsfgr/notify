@@ -1,9 +1,7 @@
-# notify
-redo exercise to train the basics of HTML and CSS
+![](https://user-images.githubusercontent.com/52453558/78079807-47c19380-7383-11ea-9eff-49838773bf57.png)
 
-### tasks:
+# Academia Mastertech 05 de 2019 - notify
+:beginner: Exercício para replicar uma landing page para treinar o básico de HTML e CSS. 
 
-- [x] make desktop version of web application
-- [x] make mobile version of web application
+![notify_psd_theme](https://user-images.githubusercontent.com/52453558/78084229-008cd000-738e-11ea-9078-bd99826a352c.jpg)
 
-![5a85a150cf809-lg](https://user-images.githubusercontent.com/52453558/68998578-15f7d680-0893-11ea-95d2-967a9dc42586.png)
